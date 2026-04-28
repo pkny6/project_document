@@ -93,25 +93,3 @@ wget https://mirrors.aliyun.com/apache/maven/maven-3/3.9.14/binaries/apache-mave
 tar -zxvf  apache-maven-3.9.14-bin.tar.gz -C /usr/local/
 mv apache-maven-3.9.14-bin.tar.gz maven
 ```
-
-> 下载这个插件
-
-![](C:\Users\30530\AppData\Roaming\marktext\images\2026-04-14-20-54-29-image.png)
-
-> 这个位置填写Jenkis主机的私钥
-
-![](C:\Users\30530\AppData\Roaming\marktext\images\2026-04-14-20-55-53-image.png)
-
-## 三、配置Tomcat
-
-> 配置自动部署
-
-![](C:\Users\30530\AppData\Roaming\marktext\images\2026-04-14-21-00-29-image.png)
-
-> 安装并启动tomcat
-
-```bash
-tar -zxvf /root/apache-tomcat-10.1.54.tar.gz -C /usr/local
-mv /usr/local/apache-tomcat-10.1.54.tar.gz tomcat
-/usr/local/tomcat/bin/startup.sh
-```
